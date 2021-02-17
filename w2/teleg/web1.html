@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Telegram Web</title>
+	<link rel="shortcut icon" href="https://web.telegram.org/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<link rel="stylesheet" href="" type="text/css">
+</head>
+<body>
+	<div id="all_page">
+		<div class="top-block"></div>
+		<div id = "big2">
+			<div id="login_head" >
+				<a href="https://web.telegram.org/">
+					<img src="img/loggo.jpg" class="icon2">
+				</a>
+				<div class="login_head_next">
+					<a href="">Next</a>
+				</div>
+			</div>
+		<div id="form_fill">
+			<form>
+				<h3>Sign in</h3>
+				<p>Please choose your country and enter your full phone number.</p>
+				<br>
+				<div>
+					<label id = "country_label">Country</label><br>
+					<select id = select_country>
+		          		<option value="Kazakhstan">Kazakhstan</option>
+						<option value="Afghanistan">Afghanistan</option>
+						<option value="Åland Islands">Åland Islands</option>
+		           		<option value="Albania">Albania</option>
+		           		<option value="Algeria">Algeria</option>
+		           		<option value="Bahamas">Bahamas</option>
+		           		<option value="Canada">Canada</option>
+		           		<option value="Germany">Germany</option>
+		           		<option value="United States">United States</option>
+		           		<option value="Russian Federation">Russian Federation</option>
+					</select>
+				</div>
+				<div>
+					<label id="code_label">Code</label>
+					<label id="phone_number">Phone number</label>
+					<br>
+					<input type="text" id="c_code" name="code" value="+7 7" margin-right="50px" required>
+					<input type="text" id="phone_numbers" name="phone" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" value="" required>
+				</div>
+			</form>	
+		</div>
+		</div>
+		<div class="login_bottom_div">
+			<p>Welcome to the official Telegram web-client.</p>
+			<a href="">Learn more</a>
+		</div>
+	</div>
+</body>

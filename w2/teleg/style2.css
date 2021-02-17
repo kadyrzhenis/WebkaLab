@@ -1,0 +1,143 @@
+body{
+	background-color: #e7ebf0;
+}
+#top-block{
+	/*display: block;*/
+	/*box-sizing: border-box;*/
+    background: #5682a3;
+    height: 226px;
+    width: 100%;
+}
+#login_page{
+	margin: -131px auto 90px;
+    max-width: 404px;
+}
+#login_page_top{
+	height: 75px;
+}
+#login_page_mid{
+	
+    background: #fff;
+    padding: 44px 65px;
+}
+#login_page_bot{
+	/*box-sizing: border-box;*/
+	text-align: center;
+}
+#login_page_top_link {
+    display: inline-block;
+    line-height: 30px;
+    padding: 23px 15px 22px;
+}
+#pic1{
+	width: 100px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+    background-position: -5px -10px;
+}
+#login_page_next{
+	float: right;
+}
+#login_page_next_link{
+	font-size: 13px;
+    line-height: 20px;
+    padding: 27px 15px 28px;
+    display: inline-block;
+    color: #fff;
+}
+#login_page_next_link_icon{
+	width: 7px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-top: -1px;
+    background-repeat: no-repeat;
+    background-position: -18px -50px;
+}
+#sign_in_h3{
+	color:#222;
+	margin:0 0 20px;
+	font-size:16px;
+	font-weight:700
+}
+#sign_in_p{
+	color:#999;
+	margin:15px 0 30px;
+	font-size:13px;
+	line-height:160%
+}
+#country_label{
+	font-weight:400;
+	color:#999;
+	cursor:pointer;
+	display:block;
+	font-size:13px;
+	margin:0;padding:0;
+	z-index:1;
+	pointer-events:none;
+	transform-origin:left center;
+	transform:translate3d(0,-2px,0)
+}
+#select_country{
+	width: 250px;
+	margin-bottom: 25px;
+}
+input,select{
+	outline: 0;
+	border:none;
+	border-bottom: 1px solid grey;
+	padding-top: 10px;
+}
+#phone_box{
+	box-sizing: border-box;
+}
+#phone_box_code{
+	float: left;
+    width: 50px;
+    margin-right: 25px;
+}
+#phone_box_label{
+    transform: scale(.9);
+}
+#phone_code_in,#phone_box_phone_in{
+	color: #000;
+    background: #fff;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    font-size: 13px;
+    padding: 3px 0;
+    margin: 3px 0 0;
+    width: 100%;
+    resize: none;
+	border-bottom: 2px solid grey;
+    box-shadow: none;
+}
+#phone_code_in:focus, #phone_box_phone_in:focus{
+	border-bottom: 2px solid blue;
+}
+#phone_box_phone_in{
+    width: 175px;
+}
+#bott{
+	color: rgb(149, 180, 230);
+    margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    font: 13px/18px Tahoma,sans-serif,Arial,Helvetica;
+}
+#more{
+	color: rgb(149,180,230);
+	font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#more:hover{
+	text-decoration: underline;
+}

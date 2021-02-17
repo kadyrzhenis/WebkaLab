@@ -1,0 +1,124 @@
+body{
+	background-color: #e7ebf0;
+}
+div{
+	display: block;
+}
+p{
+	display: block;
+    margin: 0 0 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+#big2{
+	margin: -135px auto 90px;
+    max-width: 430px;
+    padding: 50px;
+}
+#code{
+	margin-right: 25px;
+}
+input, select{
+	outline: 0;
+	border:none;
+	border-bottom: 1px solid grey;
+	padding-top: 10px;
+}
+#select_country{
+	outline: 0;
+	border: none;
+	border-bottom: 1px solid grey;
+
+}
+#form_fill{
+	background-color: white;
+	border: none;
+	padding: 0px;
+	width: 300px;
+	margin: 20px;
+    padding: 40px 60px;
+}
+#all_page{
+	box-sizing: border-box;
+}
+#select_country{
+	padding-top: 10px;
+	width: 250px;
+}
+#code{
+	width: 70px;
+}
+#phone_number{
+	/*visibility: false;*/
+}
+#code_label{
+	width: 100px;
+}
+#c_code{
+	width: 50px;
+	margin-right: 25px;
+}
+#c_code:focus,#phone_numbers:focus{
+	border-bottom: 2px solid blue;
+}
+.top-block{
+	background:#5682a3;
+	height:226px;
+}
+.icon1{
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+    background-image: url(img\logo-telegram.png);
+    background-repeat: no-repeat;
+    background-position: -5px -10px;
+}
+.icon2{
+	width:100px;
+	height:30px;
+	display:inline-block;
+	vertical-align:middle;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	margin-top:1px;
+}
+#login_head_btn{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 27px 15px 28px;
+    display: inline-block;
+    color: #fff;
+}
+.icon-next-submit{
+	background-image:url(img/next.png);
+	background-size:40px 948px
+}
+
+.login_head_logo_link{
+	display:inline-block;
+	line-height:30px;
+	padding:23px 15px 22px;
+}
+.login_head_next{
+	float:right;
+	font-weight:700;
+}
+.back_form{
+	/*background-color: white;*/
+}
+
+.login_bottom_div{
+	color:#84a2bc;
+	font-size:13px;
+	line-height:16px;
+	margin-top:25px;
+	text-align:center;
+}
+#login_head{
+	height: 15px;
+	/*background-color: #5682a3;*/
+}
